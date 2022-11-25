@@ -44,7 +44,7 @@ public class DadosApi extends AsyncTask<String, Void, ArrayList<HashMap<String, 
                 HashMap<String, String> mapaDados = new HashMap<>();
                 mapaDados.put("nome", item.getString("name"));
                 mapaDados.put("url", item.getString("url"));
-                //mapaDados.put("imagem", Config.linkImagem + (i + 1) + ".png");
+                mapaDados.put("imagem", Config.linkImagem + (i + 1) + ".svg");
 
                 listaDados.add(mapaDados);
             }
