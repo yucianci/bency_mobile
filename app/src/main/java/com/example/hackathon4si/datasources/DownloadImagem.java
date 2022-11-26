@@ -31,7 +31,6 @@ public class DownloadImagem extends AsyncTask<String, Void, Bitmap> {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-
         return bitmap;
     }
 
